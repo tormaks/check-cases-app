@@ -1,0 +1,77 @@
+.check-case {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.check-case__title {
+    margin: 0px 0px 20px 0px;
+    font-style: italic;
+}
+
+.check-case__form {
+    margin: 0px 0px 40px 0px;
+}
+
+.check-case__input {
+    width: 50%;
+    border-color: #f5f6fa;
+    border-radius: 20px;
+    display: block;
+    margin: 0 0 30px;
+    outline-color: #7671dd;
+    padding: 15px;
+    font-size: 24px;
+    margin: 0 auto 40px auto;
+}
+
+.check-case__case-title {
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+    margin: 0px 0px 20px 0px;
+}
+
+.check-case__select {
+    background-color: white;
+    color: black;
+    padding: 12px;
+    width: 250px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    outline-color: #7671dd;
+    margin: 0px 0px 20px 0px;
+}
+
+.check-case__button {
+    color: black;
+    cursor: pointer;
+    background-color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 24px;
+    display: block;
+    margin: 0 auto;
+    transition: opacity, box-shadow 0.2s linear;
+}
+
+.check-case__button:disabled {
+    opacity: 0.4;
+}
+
+.check-case__button:disabled:hover {
+    opacity: 0.4;
+    box-shadow: none;
+    cursor: auto;
+}
+
+.check-case__button:hover {
+    opacity: 0.7;
+    box-shadow: 5px 5px 5px black;
+}
+
+.check-case__result {
+    font-size: 36px;
+    font-weight: 700;
+}
